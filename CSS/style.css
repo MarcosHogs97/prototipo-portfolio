@@ -44,6 +44,10 @@ header h1 {
   header nav ul {
     font-size: 0.6rem;
   }
+
+  /* #intro{
+    font-size: 12pt !important;
+  } */
 }
 
 header nav ul {
@@ -105,12 +109,10 @@ header nav ul a:hover {
 
 footer {
   display: flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: static;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 5px;
   padding: 10px;
   color: #ffffff;
   border-top: solid 1px #ffffff;
