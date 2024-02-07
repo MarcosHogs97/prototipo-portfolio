@@ -82,7 +82,7 @@
     transition: all 0.5s ease-in-out 0s;
 }
 
-.card .bottom {
+.card .button {
     position: absolute;
     bottom: 3px;
     left: 3px;
@@ -95,9 +95,10 @@
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     cursor: pointer;
+    
 }
 
-.card .bottom .content {
+.card .button .content {
     position: absolute;
     bottom: 0;
     left: 1.5rem;
@@ -105,20 +106,20 @@
     height: 160px;
 }
 
-.card .bottom .content .name {
+.card .button .content .name {
     display: block;
     font-size: 1.2rem;
     color: white;
     font-weight: bold;
 }
 
-.card .bottom .content .about-me {
+.card .button .content .about-me {
     display: block;
     font-size: 0.9rem;
     color: white;
 }
 
-.card .bottom .bottom-bottom {
+.card .button .button-button {
     position: absolute;
     bottom: 1rem;
     left: 1.5rem;
@@ -128,23 +129,22 @@
     justify-content: space-between;
 }
 
-.card .bottom .bottom-bottom .social-links-container {
+.card .button .button-button .social-links-container {
     display: flex;
     gap: 1rem;
 }
 
-.card .bottom .bottom-bottom .social-links-container svg {
+.card .button .button-button .social-links-container svg {
     height: 20px;
     fill: white;
     filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.1333333333));
 }
 
-.card .bottom .bottom-bottom .social-links-container svg:hover {
-    fill: #f55d56;
+.card .button .button-button .social-links-container svg:hover {
     transform: scale(1.2);
 }
 
-.card .bottom .bottom-bottom .button {
+.card .button .button-button .button {
     background: white;
     color: red;
     border: none;
@@ -155,7 +155,7 @@
     cursor: pointer;
 }
 
-.card .bottom .bottom-bottom .button:hover {
+.card .button .button-button .button:hover {
     background: #a00c04;
     color: white;
 }
@@ -165,7 +165,7 @@
     box-shadow: 0 8px 16px rgba(255, 0, 0, 0.418);
 }
 
-.card:hover .bottom {
+.card:hover .button {
     top: 20%;
     border-radius: 80px 29px 29px 29px;
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
