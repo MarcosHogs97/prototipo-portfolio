@@ -62,6 +62,7 @@
 
 .card-projetos__description {
     margin: 10px 0 0;
-    font-size: 14px;
+    font-size: 12pt;
+    font-weight: 600;
     line-height: 1.4;
 }
